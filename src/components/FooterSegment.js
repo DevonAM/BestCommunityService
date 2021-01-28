@@ -16,10 +16,10 @@ const FooterSegment = () => {
                   Contact Us
                 </a>
                 <a href="#" className="item">
-                  Religious Ceremonies
+                  Events
                 </a>
                 <a href="#" className="item">
-                  Gazebo Plans
+                  Plans
                 </a>
               </div>
             </div>
@@ -27,16 +27,16 @@ const FooterSegment = () => {
               <h4 className="ui inverted header">Services</h4>
               <div className="ui inverted link list">
                 <a href="#" className="item">
-                  Banana Pre-Order
+                  Temporary
                 </a>
                 <a href="#" className="item">
-                  DNA FAQ
+                  FAQ
                 </a>
                 <a href="#" className="item">
                   How To Access
                 </a>
                 <a href="#" className="item">
-                  Favorite X-Men
+                  Favorites
                 </a>
               </div>
             </div>
