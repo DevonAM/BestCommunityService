@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const logo = "./logo512.png";
 
-const MenuBar = () => {
+const renderContent = () => {
   return (
     <div className="pusher">
       <div className="ui inverted vertical masthead center aligned segment">
@@ -12,7 +12,7 @@ const MenuBar = () => {
             <a className="toc item">
               <i className="sidebar icon"></i>
             </a>
-            <Link to="/" className="active item">
+            <Link to="/" className="item">
               Home
             </Link>
             <Link to="/services" className="item">
@@ -35,5 +35,12 @@ const MenuBar = () => {
     </div>
   );
 };
+
+class MenuBar extends React.Component {
+  state = { activePage: null };
+  render() {
+    return renderContent();
+  }
+}
 
 export default MenuBar;

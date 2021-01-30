@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class SignUpPage extends React.Component {
   render() {
     const logo = "./logo512.png";
 
     return (
-      <div class="ui middle aligned center aligned grid">
+      <div class="ui segment middle aligned center aligned grid">
         <div class="column">
           <h2 class="ui blue image header">
             <img src={logo} class="image" />
@@ -44,7 +45,7 @@ class SignUpPage extends React.Component {
           </form>
 
           <div class="ui message">
-            Already a member? <a href="#">Log In</a>
+            Already a member? <Link to="login">Log In</Link>
           </div>
         </div>
       </div>
