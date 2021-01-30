@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+const logo = "./logo512.png";
 
 const MenuBar = () => {
   return (
@@ -9,12 +12,22 @@ const MenuBar = () => {
             <a className="toc item">
               <i className="sidebar icon"></i>
             </a>
-            <a className="active item">Home</a>
-            <a className="item">Services</a>
-            <a className="item">Donate</a>
+            <Link to="/" className="active item">
+              Home
+            </Link>
+            <Link to="/services" className="item">
+              Services
+            </Link>
+            <Link to="/donate" className="item">
+              Donate
+            </Link>
             <div className="right item">
-              <a className="ui inverted button">Log in</a>
-              <a className="ui inverted button">Sign Up</a>
+              <Link to="/login" className="ui inverted button">
+                Log in
+              </Link>
+              <Link to="signup" className="ui inverted button">
+                Sign Up
+              </Link>
             </div>
           </div>
         </div>
