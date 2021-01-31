@@ -2,7 +2,9 @@ import React from "react";
 import ServiceCard from "./ServiceCard";
 
 class ServicesPage extends React.Component {
-  render() {
+  state = { selectedVideo: null };
+
+  renderCards() {
     return (
       <div className="ui link cards">
         <ServiceCard name="Wedding Space" description="Rent space." />
@@ -32,6 +34,9 @@ class ServicesPage extends React.Component {
         />
       </div>
     );
+  }
+  render() {
+    renderCards();
   }
 }
 

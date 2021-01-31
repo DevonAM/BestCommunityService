@@ -8,6 +8,9 @@ import ServicesPage from "./ServicesPage";
 import LoginPage from "./LoginPage";
 import SignUpPage from "./SignUpPage";
 import DonatePage from "./DonatePage";
+import AServicePage from "./AServicePage";
+
+import Shit from "./Shit";
 
 class App extends React.Component {
   render() {
@@ -15,13 +18,16 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <MenuBar />
-          <div>
+          <AServicePage />
+
+          {/* <div>
             <Route path="/" exact component={Home} />
             <Route path="/services" exact component={ServicesPage} />
             <Route path="/donate" exact component={DonatePage} />
             <Route path="/login" exact component={LoginPage} />
             <Route path="/signup" exact component={SignUpPage} />
-          </div>
+            <Route path="/service" compoent={AServicePage} />
+          </div> */}
           <FooterSegment />
         </BrowserRouter>
       </div>
