@@ -36,7 +36,7 @@ class ServicesPage extends React.Component {
     );
   }
   render() {
-    renderCards();
+    return this.renderCards();
   }
 }
 
