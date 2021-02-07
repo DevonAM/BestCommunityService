@@ -21,10 +21,15 @@ class AServicePage extends React.Component {
           <div className="six wide centered column">
             <h1>Painting Class</h1>
             <div class="ui divider"></div>
-            <div className="price-line">
-              <h4 className="price-text">Price: </h4>
-              <h3 className="price-value">$20</h3>
+            <div className="ui two column grid">
+              <div className="two wide column">Price: </div>
+              <div className="one wide column">$20</div>
             </div>
+            <div className="ui grid">
+              <div className="three wide column">Instructor: </div>
+              <div className="seven wide column">Devon Acree-Meza</div>
+            </div>
+            <div className="ui hidden horizontal divider" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
