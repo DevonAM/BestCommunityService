@@ -1,17 +1,9 @@
 import React from "react";
+import Copy from "./DonatePage";
 
 class CheckoutPage extends React.Component {
   render() {
-    return (
-      <div>
-        <div>
-          <div class="ui custom button">Show custom popup</div>
-        </div>
-        <div class="ui custom popup top left transition hidden">
-          I'm not on the same level as the button, but i can still be found.
-        </div>
-      </div>
-    );
+    return <Copy />;
   }
 }
 

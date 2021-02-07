@@ -1,5 +1,6 @@
 import React from "react";
 import "./AServicePage.css";
+// import { Link } from "react-router-dom";
 
 class AServicePage extends React.Component {
   render() {
@@ -59,7 +60,7 @@ class AServicePage extends React.Component {
               <div className="checkout-button">
                 <div className="ui custom button">
                   <i className="shop icon" />
-                  Checkout
+                  {/* <Link to="/checkout">Checkout</Link> */}
                 </div>
                 <div class="ui custom popup top left transition hidden">
                   I'm not on the same level as the button, but i can still be
