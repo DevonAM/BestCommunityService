@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const renderContent = () => {
   return (
-    <div className="pusher">
+    <div className="pusher" style={{ marginBottom: "4em" }}>
       <div className="ui inverted vertical masthead center aligned segment">
         <div className="ui container">
           <div className="ui inverted borderless top fixed fluid menu">
