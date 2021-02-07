@@ -25,8 +25,8 @@ class App extends React.Component {
             <Route path="/donate" exact component={DonatePage} />
             <Route path="/login" exact component={LoginPage} />
             <Route path="/signup" exact component={SignUpPage} />
-            <Route path="/service" compoent={AServicePage} />
-            <Route path="/checkout" compoent={CheckoutPage} />
+            <Route path="/service" component={AServicePage} />
+            <Route path="/checkout" component={CheckoutPage} />
             <Route path="/manageservices" component={ManageServicesPage} />
             <Route path="/manageemployees" component={ManageEmployeesPage} />
           </div>
