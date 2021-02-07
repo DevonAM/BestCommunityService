@@ -14,11 +14,6 @@ class ManageServicesPage extends React.Component {
           >
             <div class="ui padded grid">
               <div class="row">
-                <h1 class="ui huge dividing header">Dashboard</h1>
-              </div>
-
-              <div class="ui hidden section divider"></div>
-              <div class="row">
                 <h1 class="ui huge dividing header">Service Management</h1>
               </div>
               <div class="row">
@@ -74,21 +69,21 @@ class ManageServicesPage extends React.Component {
                       <td>1,005</td>
                       <td>Funeral Space</td>
                       <td>Reverend John</td>
-                      <td>sem</td>
+                      <td>$100</td>
                       <td>at</td>
                     </tr>
                     <tr>
                       <td>1,006</td>
                       <td>nibh</td>
                       <td>elementum</td>
-                      <td>imperdiet</td>
+                      <td>$100</td>
                       <td>Duis</td>
                     </tr>
                     <tr>
                       <td>1,007</td>
                       <td>sagittis</td>
                       <td>ipsum</td>
-                      <td>Praesent</td>
+                      <td>$100</td>
                       <td>mauris</td>
                     </tr>
                   </tbody>
