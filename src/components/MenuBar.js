@@ -8,7 +8,7 @@ const renderContent = () => {
     <div className="pusher">
       <div className="ui inverted vertical masthead center aligned segment">
         <div className="ui container">
-          <div className="ui large secondary inverted pointing menu">
+          <div className="ui inverted borderless top fixed fluid menu">
             {/* <a className="toc item">
               <i className="sidebar icon"></i>
             </a> */}

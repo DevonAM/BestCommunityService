@@ -10,6 +10,8 @@ import SignUpPage from "./SignUpPage";
 import DonatePage from "./DonatePage";
 import AServicePage from "./AServicePage";
 import CheckoutPage from "./CheckoutPage";
+import ManageServicesPage from "./ManageServicesPage";
+import ManageEmployeesPage from "./ManageEmployeesPage";
 
 class App extends React.Component {
   render() {
@@ -17,7 +19,6 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <MenuBar />
-          <LoginPage />
           <div>
             <Route path="/" exact component={Home} />
             <Route path="/services" exact component={ServicesPage} />
@@ -26,6 +27,8 @@ class App extends React.Component {
             <Route path="/signup" exact component={SignUpPage} />
             <Route path="/service" compoent={AServicePage} />
             <Route path="/checkout" compoent={CheckoutPage} />
+            <Route path="/manageservices" component={ManageServicesPage} />
+            <Route path="/manageemployees" component={ManageEmployeesPage} />
           </div>
           <FooterSegment />
         </BrowserRouter>
