@@ -13,6 +13,7 @@ class ManageServicesPage extends React.Component {
             id="content"
           >
             <div class="ui padded grid">
+              <div class="ui hidden section divider"></div>
               <div class="row">
                 <h1 class="ui huge dividing header">Service Management</h1>
               </div>
@@ -32,9 +33,7 @@ class ManageServicesPage extends React.Component {
                       <td>1,001</td>
                       <td>Art Class</td>
                       <td>Kevin Buell</td>
-
                       <td>$100</td>
-
                       <td>sit</td>
                     </tr>
                     <tr>
