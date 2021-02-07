@@ -15,12 +15,16 @@ class SideBar extends React.Component {
         id="sidebar"
       >
         <div class="ui vertical borderless fluid text menu">
+          <Link to="/account" class="item">
+            Account
+          </Link>
           <Link to="/manageservices" class="item">
             Manage Services
           </Link>
           <Link to="/manageemployees" class="item">
             Manage Employees
           </Link>
+
           {/* <div class="ui hidden divider"></div>
         <a class="item">Nav item</a> <a class="item">Nav item again</a>
         <a class="item">One more nav</a> <a class="item">Another nav item</a>
