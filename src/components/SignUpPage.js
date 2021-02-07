@@ -9,7 +9,7 @@ class SignUpPage extends React.Component {
       <div class="ui segment middle aligned center aligned grid">
         <div class="column">
           <h2 class="ui blue image header">
-            <img src={logo} class="image" />
+            <img src={logo} alt="sign up" class="image" />
             <div class="content">Sign Up</div>
           </h2>
           <form class="ui large form">

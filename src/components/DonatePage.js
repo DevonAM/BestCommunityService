@@ -6,7 +6,7 @@ class DonatePage extends React.Component {
       <div className="ui middle aligned center aligned grid">
         <div className="column">
           <h2 class="ui blue image header">
-            <img src="./logo512.png" class="image" />
+            <img alt="donate" src="./logo512.png" class="image" />
             <div class="content">Donate</div>
           </h2>
           <form class="ui form segment">

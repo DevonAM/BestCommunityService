@@ -10,7 +10,11 @@ class AServicePage extends React.Component {
           <div className="five wide left aligned column">
             <div className="ui card">
               <div className="image">
-                <img src="./logo512.png" style={{ justifyContent: "left" }} />
+                <img
+                  alt="service"
+                  src="./logo512.png"
+                  style={{ justifyContent: "left" }}
+                />
               </div>
             </div>
           </div>

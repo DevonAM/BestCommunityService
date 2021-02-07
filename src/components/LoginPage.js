@@ -8,7 +8,7 @@ class LoginPage extends React.Component {
       <div class="ui segment middle aligned center aligned grid">
         <div class="column">
           <h2 class="ui blue image header">
-            <img src="./logo512.png" class="image" />
+            <img alt="login" src="./logo512.png" class="image" />
             <div class="content">Log-in to your account</div>
           </h2>
           <form class="ui large form">

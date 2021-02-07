@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterSegment = () => {
   return (
@@ -9,35 +10,35 @@ const FooterSegment = () => {
             <div className="three wide column">
               <h4 className="ui inverted header">About</h4>
               <div className="ui inverted link list">
-                <a href="#" className="item">
+                <Link to="/home" className="item">
                   Sitemap
-                </a>
-                <a href="#" className="item">
+                </Link>
+                <Link to="/home" className="item">
                   Contact Us
-                </a>
-                <a href="#" className="item">
+                </Link>
+                <Link to="/home" className="item">
                   Events
-                </a>
-                <a href="#" className="item">
+                </Link>
+                <Link to="/home" className="item">
                   Plans
-                </a>
+                </Link>
               </div>
             </div>
             <div className="three wide column">
               <h4 className="ui inverted header">Services</h4>
               <div className="ui inverted link list">
-                <a href="#" className="item">
+                <Link to="/home" className="item">
                   Temporary
-                </a>
-                <a href="#" className="item">
+                </Link>
+                <Link to="/home" className="item">
                   FAQ
-                </a>
-                <a href="#" className="item">
+                </Link>
+                <Link to="/home" className="item">
                   How To Access
-                </a>
-                <a href="#" className="item">
+                </Link>
+                <Link to="/home" className="item">
                   Favorites
-                </a>
+                </Link>
               </div>
             </div>
             <div className="seven wide column">

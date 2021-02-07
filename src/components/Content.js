@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Content = () => {
   return (
@@ -40,12 +41,15 @@ const Content = () => {
               <img
                 src="assets/images/wireframe/white-image.png"
                 className="ui large bordered rounded image"
+                alt="white"
               />
             </div>
           </div>
           <div className="row">
             <div className="center aligned column">
-              <a className="ui huge button">Check Them Out</a>
+              <Link to="/" className="ui huge button">
+                Check Them Out
+              </Link>
             </div>
           </div>
         </div>
@@ -67,6 +71,7 @@ const Content = () => {
                 <img
                   src="assets/images/avatar/nan.jpg"
                   className="ui avatar image"
+                  alt="avatar"
                 />{" "}
                 <b>Nan</b> Chief Fun Officer Acme Toys
               </p>
@@ -84,9 +89,13 @@ const Content = () => {
             amounts of whitespace and generic content that can seem massive,
             monolithic and worth your attention.
           </p>
-          <a className="ui large button">Read More</a>
+          <Link to="/" className="ui large button">
+            Read More
+          </Link>
           <h4 className="ui horizontal header divider">
-            <a href="#">Case Studies</a>
+            <Link to="/" href="/">
+              Case Studies
+            </Link>
           </h4>
           <h3 className="ui header">Did We Tell You About Our Bananas?</h3>
           <p>
@@ -95,7 +104,9 @@ const Content = () => {
             gene splicing and combinatory DNA research, but our bananas can
             really dance.
           </p>
-          <a className="ui large button">I'm Still Quite Interested</a>
+          <Link to="/" className="ui large button">
+            I'm Still Quite Interested
+          </Link>
         </div>
       </div>
     </div>
