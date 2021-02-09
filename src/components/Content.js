@@ -39,7 +39,7 @@ const Content = () => {
             </div>
             <div className="six wide right floated column">
               <img
-                src="assets/images/wireframe/white-image.png"
+                src="./logo512.png"
                 className="ui large bordered rounded image"
                 alt="white"
               />
@@ -69,10 +69,10 @@ const Content = () => {
               </h3>
               <p>
                 <img
-                  src="assets/images/avatar/nan.jpg"
+                  src="./logo512.png"
                   className="ui avatar image"
                   alt="avatar"
-                />{" "}
+                />
                 <b>Nan</b> Chief Fun Officer Acme Toys
               </p>
             </div>
