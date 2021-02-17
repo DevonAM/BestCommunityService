@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 class LoginPage extends React.Component {
   render() {
     return (
-      <div class="ui segment middle aligned center aligned grid">
+      <div class="login ui middle aligned center aligned grid">
         <div class="column">
           <h2 class="ui blue image header">
-            <img alt="login" src="./logo512.png" class="image" />
+            <img alt="login" src="./logo512.png" class="login image" />
             <div class="content">Log-in to your account</div>
           </h2>
           <form class="ui large form">
