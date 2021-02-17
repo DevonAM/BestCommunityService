@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 class LoginPage extends React.Component {
   render() {
     return (
-      <div class="ui middle aligned center aligned grid">
-        <div class="column login-col">
-          <h2 class="ui blue image header">
-            <img alt="login" src="./logo512.png" class="login image" />
-            <div class="content">Log-in to your account</div>
+      <div className="ui middle aligned center aligned grid">
+        <div className="column login-col">
+          <h2 className="ui blue image header">
+            <img alt="login" src="./logo512.png" className="login image" />
+            <div className="content">Log-in to your account</div>
           </h2>
-          <form class="ui large form">
-            <div class="ui stacked segment">
-              <div class="field">
-                <div class="ui left icon input">
-                  <i class="user icon"></i>
+          <form className="ui large form">
+            <div className="ui stacked segment">
+              <div className="field">
+                <div className="ui left icon input">
+                  <i className="user icon"></i>
                   <input
                     type="text"
                     name="email"
@@ -23,9 +23,9 @@ class LoginPage extends React.Component {
                   />
                 </div>
               </div>
-              <div class="field">
-                <div class="ui left icon input">
-                  <i class="lock icon"></i>
+              <div className="field">
+                <div className="ui left icon input">
+                  <i className="lock icon"></i>
                   <input
                     type="password"
                     name="password"
@@ -33,13 +33,13 @@ class LoginPage extends React.Component {
                   />
                 </div>
               </div>
-              <div class="ui fluid large blue submit button">Login</div>
+              <div className="ui fluid large blue submit button">Login</div>
             </div>
 
-            <div class="ui error message"></div>
+            <div className="ui error message"></div>
           </form>
 
-          <div class="ui message">
+          <div className="ui message">
             New to us? <Link to="signup">Sign Up</Link>
           </div>
         </div>

@@ -5,20 +5,20 @@ class ManageServicesPage extends React.Component {
   render() {
     return (
       <div>
-        <div class="ui mobile only padded grid"></div>
-        <div class="ui padded grid">
+        <div className="ui mobile only padded grid"></div>
+        <div className="ui padded grid">
           <SideBar activePage="services" />
           <div
-            class="sixteen wide mobile thirteen wide tablet thirteen wide computer right floated column"
+            className="sixteen wide mobile thirteen wide tablet thirteen wide computer right floated column"
             id="content"
           >
-            <div class="ui padded grid">
-              <div class="ui hidden section divider"></div>
-              <div class="row">
-                <h1 class="ui huge dividing header">Service Management</h1>
+            <div className="ui padded grid">
+              <div className="ui hidden section divider"></div>
+              <div className="row">
+                <h1 className="ui huge dividing header">Service Management</h1>
               </div>
-              <div class="row">
-                <table class="ui single line striped selectable unstackable table">
+              <div className="row">
+                <table className="ui single line striped selectable unstackable table">
                   <thead>
                     <tr>
                       <th>#</th>
