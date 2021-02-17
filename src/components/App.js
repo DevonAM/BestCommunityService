@@ -14,6 +14,7 @@ import ManageServicesPage from "./ManageServicesPage";
 import ManageEmployeesPage from "./ManageEmployeesPage";
 import AccountPage from "./AccountPage";
 import ThankYouPage from "./ThankYouPage";
+import ThankYouPageDonation from "./ThankYouPageDonation";
 
 class App extends React.Component {
   render() {
@@ -21,7 +22,8 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <MenuBar />
-          <div>
+          <ThankYouPageDonation />
+          {/* <div>
             <Route path="/" exact component={Home} />
             <Route path="/services" exact component={ServicesPage} />
             <Route path="/donate" exact component={DonatePage} />
@@ -33,7 +35,7 @@ class App extends React.Component {
             <Route path="/manageemployees" component={ManageEmployeesPage} />
             <Route path="/account" component={AccountPage} />
             <Route path="/thankyou" component={ThankYouPage} />
-          </div>
+          </div> */}
           <FooterSegment />
         </BrowserRouter>
       </div>

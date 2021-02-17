@@ -26,6 +26,7 @@ class ManageServicesPage extends React.Component {
                       <th>Host</th>
                       <th>Price</th>
                       <th>Location</th>
+                      <th>Edit</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -35,6 +36,9 @@ class ManageServicesPage extends React.Component {
                       <td>Kevin Buell</td>
                       <td>$100</td>
                       <td>sit</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,002</td>
@@ -42,6 +46,9 @@ class ManageServicesPage extends React.Component {
                       <td>Devon Meza</td>
                       <td>$100</td>
                       <td>elit</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,003</td>
@@ -49,6 +56,9 @@ class ManageServicesPage extends React.Component {
                       <td>Rotating</td>
                       <td>$100</td>
                       <td>Praesent</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,003</td>
@@ -56,6 +66,9 @@ class ManageServicesPage extends React.Component {
                       <td>N/A</td>
                       <td>$100</td>
                       <td>ante</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,004</td>
@@ -63,6 +76,9 @@ class ManageServicesPage extends React.Component {
                       <td>John Doe</td>
                       <td>$100</td>
                       <td>nisi</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,005</td>
@@ -70,6 +86,9 @@ class ManageServicesPage extends React.Component {
                       <td>Reverend John</td>
                       <td>$100</td>
                       <td>at</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,006</td>
@@ -77,6 +96,9 @@ class ManageServicesPage extends React.Component {
                       <td>elementum</td>
                       <td>$100</td>
                       <td>Duis</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,007</td>
@@ -84,6 +106,9 @@ class ManageServicesPage extends React.Component {
                       <td>ipsum</td>
                       <td>$100</td>
                       <td>mauris</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                   </tbody>
                 </table>
