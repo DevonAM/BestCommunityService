@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 class LoginPage extends React.Component {
   render() {
     return (
-      <div class="login ui middle aligned center aligned grid">
-        <div class="column">
+      <div class="ui middle aligned center aligned grid">
+        <div class="column login-col">
           <h2 class="ui blue image header">
             <img alt="login" src="./logo512.png" class="login image" />
             <div class="content">Log-in to your account</div>
