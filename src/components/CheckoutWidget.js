@@ -1,10 +1,6 @@
 import React from "react";
 
 class DonatePage extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="ui middle aligned center aligned grid">

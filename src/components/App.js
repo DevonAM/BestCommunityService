@@ -7,14 +7,13 @@ import MenuBar from "./MenuBar";
 import ServicesPage from "./ServicesPage";
 import LoginPage from "./LoginPage";
 import SignUpPage from "./SignUpPage";
-import DonatePage from "./DonatePage";
+import Checkout from "./CheckoutWidget";
 import AServicePage from "./AServicePage";
-import CheckoutPage from "./CheckoutPage";
 import ManageServicesPage from "./ManageServicesPage";
 import ManageEmployeesPage from "./ManageEmployeesPage";
 import AccountPage from "./AccountPage";
 import ThankYouPage from "./ThankYouPage";
-import ThankYouPageDonation from "./ThankYouPageDonation";
+// import ThankYouPageDonation from "./ThankYouPageDonation";
 
 class App extends React.Component {
   render() {
@@ -31,11 +30,11 @@ class App extends React.Component {
             <Route path="/service" component={AServicePage} />
             <Route
               path="/checkout"
-              render={(props) => <DonatePage title="Checkout" />}
+              render={(props) => <Checkout title="Checkout" />}
             />
             <Route
               path="/donate"
-              render={(props) => <DonatePage title="Donation" />}
+              render={(props) => <Checkout title="Donation" />}
             />
             <Route path="/manageservices" component={ManageServicesPage} />
             <Route path="/manageemployees" component={ManageEmployeesPage} />
