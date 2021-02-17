@@ -22,20 +22,26 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <MenuBar />
-          <ThankYouPageDonation />
-          {/* <div>
+
+          <div>
             <Route path="/" exact component={Home} />
             <Route path="/services" exact component={ServicesPage} />
-            <Route path="/donate" exact component={DonatePage} />
             <Route path="/login" exact component={LoginPage} />
             <Route path="/signup" exact component={SignUpPage} />
             <Route path="/service" component={AServicePage} />
-            <Route path="/checkout" component={CheckoutPage} />
+            <Route
+              path="/checkout"
+              render={(props) => <DonatePage title="Checkout" />}
+            />
+            <Route
+              path="/donate"
+              render={(props) => <DonatePage title="Donation" />}
+            />
             <Route path="/manageservices" component={ManageServicesPage} />
             <Route path="/manageemployees" component={ManageEmployeesPage} />
             <Route path="/account" component={AccountPage} />
             <Route path="/thankyou" component={ThankYouPage} />
-          </div> */}
+          </div>
           <FooterSegment />
         </BrowserRouter>
       </div>

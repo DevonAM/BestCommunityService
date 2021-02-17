@@ -1,13 +1,17 @@
 import React from "react";
 
 class DonatePage extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className="ui middle aligned center aligned grid">
         <div className="column login-col">
           <h2 className="ui blue image header">
             <img alt="donate" src="./logo512.png" className="image" />
-            <div className="content">Checkout</div>
+            <div className="content">{this.props.title}</div>
           </h2>
           <form className="ui form segment">
             <h4 className="ui dividing header">Billing Information</h4>
