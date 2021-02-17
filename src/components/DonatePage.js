@@ -4,7 +4,7 @@ class DonatePage extends React.Component {
   render() {
     return (
       <div className="ui middle aligned center aligned grid">
-        <div className="column">
+        <div className="column login-col">
           <h2 class="ui blue image header">
             <img alt="donate" src="./logo512.png" class="image" />
             <div class="content">Donate</div>
