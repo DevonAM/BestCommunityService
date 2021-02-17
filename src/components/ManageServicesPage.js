@@ -1,24 +1,43 @@
 import React from "react";
 import SideBar from "./SideBar";
+import EditService from "./EditService";
+import Modal from "./Modal";
 
 class ManageServicesPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: false,
+    };
+    this.showModal = this.showModal.bind(this);
+    this.hideModal = this.hideModal.bind(this);
+  }
+
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
+
   render() {
     return (
       <div>
-        <div class="ui mobile only padded grid"></div>
-        <div class="ui padded grid">
+        <div className="ui mobile only padded grid"></div>
+        <div className="ui padded grid">
           <SideBar activePage="services" />
           <div
-            class="sixteen wide mobile thirteen wide tablet thirteen wide computer right floated column"
+            className="sixteen wide mobile thirteen wide tablet thirteen wide computer right floated column"
             id="content"
           >
-            <div class="ui padded grid">
-              <div class="ui hidden section divider"></div>
-              <div class="row">
-                <h1 class="ui huge dividing header">Service Management</h1>
+            <div className="ui padded grid">
+              <div className="ui hidden section divider"></div>
+              <div className="row">
+                <h1 className="ui huge dividing header">Service Management</h1>
               </div>
-              <div class="row">
-                <table class="ui single line striped selectable unstackable table">
+              <div className="row">
+                <table className="ui single line striped selectable unstackable table">
                   <thead>
                     <tr>
                       <th>#</th>
@@ -26,6 +45,7 @@ class ManageServicesPage extends React.Component {
                       <th>Host</th>
                       <th>Price</th>
                       <th>Location</th>
+                      <th>Edit</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -35,6 +55,14 @@ class ManageServicesPage extends React.Component {
                       <td>Kevin Buell</td>
                       <td>$100</td>
                       <td>sit</td>
+                      <td>
+                        <i
+                          className="ui icon edit"
+                          onClick={() => {
+                            this.props.wasClicked();
+                          }}
+                        />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,002</td>
@@ -42,6 +70,9 @@ class ManageServicesPage extends React.Component {
                       <td>Devon Meza</td>
                       <td>$100</td>
                       <td>elit</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,003</td>
@@ -49,6 +80,9 @@ class ManageServicesPage extends React.Component {
                       <td>Rotating</td>
                       <td>$100</td>
                       <td>Praesent</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,003</td>
@@ -56,6 +90,9 @@ class ManageServicesPage extends React.Component {
                       <td>N/A</td>
                       <td>$100</td>
                       <td>ante</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,004</td>
@@ -63,6 +100,9 @@ class ManageServicesPage extends React.Component {
                       <td>John Doe</td>
                       <td>$100</td>
                       <td>nisi</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,005</td>
@@ -70,6 +110,9 @@ class ManageServicesPage extends React.Component {
                       <td>Reverend John</td>
                       <td>$100</td>
                       <td>at</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,006</td>
@@ -77,6 +120,9 @@ class ManageServicesPage extends React.Component {
                       <td>elementum</td>
                       <td>$100</td>
                       <td>Duis</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                     <tr>
                       <td>1,007</td>
@@ -84,6 +130,9 @@ class ManageServicesPage extends React.Component {
                       <td>ipsum</td>
                       <td>$100</td>
                       <td>mauris</td>
+                      <td>
+                        <i className="ui icon edit" />
+                      </td>
                     </tr>
                   </tbody>
                 </table>
