@@ -11,27 +11,27 @@ class SideBar extends React.Component {
   render() {
     return (
       <div
-        className="three wide tablet only three wide computer only column"
+        class="three wide tablet only three wide computer only column"
         id="sidebar"
       >
-        <div className="ui vertical borderless fluid text menu">
-          <Link to="/account" className="item">
+        <div class="ui vertical borderless fluid text menu">
+          <Link to="/account" class="item">
             Account
           </Link>
-          <Link to="/manageservices" className="item">
+          <Link to="/manageservices" class="item">
             Manage Services
           </Link>
-          <Link to="/manageemployees" className="item">
+          <Link to="/manageemployees" class="item">
             Manage Employees
           </Link>
 
-          {/* <div className="ui hidden divider"></div>
-        <a className="item">Nav item</a> <a className="item">Nav item again</a>
-        <a className="item">One more nav</a> <a className="item">Another nav item</a>
-        <a className="item">More navigation</a>
-        <div className="ui hidden divider"></div>
-        <a className="item">Macintosh</a> <a className="item">Linux</a>
-        <a className="item">Windows</a> */}
+          {/* <div class="ui hidden divider"></div>
+        <a class="item">Nav item</a> <a class="item">Nav item again</a>
+        <a class="item">One more nav</a> <a class="item">Another nav item</a>
+        <a class="item">More navigation</a>
+        <div class="ui hidden divider"></div>
+        <a class="item">Macintosh</a> <a class="item">Linux</a>
+        <a class="item">Windows</a> */}
         </div>
       </div>
     );
