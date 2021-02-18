@@ -1,19 +1,12 @@
 import React from "react";
 import SideBar from "./SideBar";
-import Modal from "./ModalComponent";
+import Modal from "./ModalComponentService";
 
 class ManageServicesPage extends React.Component {
-  constructor() {
-    super();
-    this.state = { showModal: true };
-    // this.RenderModal = this.RenderModal.bind(this);
-  }
-
   render() {
     return (
       <div>
-        <Modal />
-        {/* <div className="ui mobile only padded grid"></div>
+        <div className="ui mobile only padded grid"></div>
         <div className="ui padded grid">
           <SideBar activePage="services" />
           <div
@@ -45,10 +38,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>sit</td>
                       <td>
-                        <i
-                          className="ui icon edit"
-                          // onClick={this.setState({ showModal: true })}
-                        />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -58,7 +48,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>elit</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -68,7 +58,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>Praesent</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -78,7 +68,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>ante</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -88,7 +78,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>nisi</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -98,7 +88,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>at</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -108,7 +98,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>Duis</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -118,7 +108,7 @@ class ManageServicesPage extends React.Component {
                       <td>$100</td>
                       <td>mauris</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                   </tbody>
@@ -126,7 +116,7 @@ class ManageServicesPage extends React.Component {
               </div>
             </div>
           </div>
-        </div>*/}
+        </div>
       </div>
     );
   }

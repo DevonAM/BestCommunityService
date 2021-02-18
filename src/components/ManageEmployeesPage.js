@@ -1,5 +1,6 @@
 import React from "react";
 import SideBar from "./SideBar";
+import Modal from "./EmployeeModal";
 
 class ManageEmployeesPage extends React.Component {
   render() {
@@ -34,7 +35,7 @@ class ManageEmployeesPage extends React.Component {
                       <td>Employee</td>
                       <td>dolor</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -43,7 +44,7 @@ class ManageEmployeesPage extends React.Component {
                       <td>Employee</td>
                       <td>adipiscing</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -52,7 +53,7 @@ class ManageEmployeesPage extends React.Component {
                       <td>Volunteer</td>
                       <td>odio</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -61,7 +62,7 @@ class ManageEmployeesPage extends React.Component {
                       <td>Employee</td>
                       <td>cursus</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                     <tr>
@@ -70,7 +71,7 @@ class ManageEmployeesPage extends React.Component {
                       <td>Volunteer</td>
                       <td>Sed</td>
                       <td>
-                        <i className="ui icon edit" />
+                        <Modal />
                       </td>
                     </tr>
                   </tbody>
@@ -101,10 +102,10 @@ export default ManageEmployeesPage;
             We've auto-chosen a profile image for you.
           </div>
           <p>
-            We've grabbed the following image from the{" "}
+            We've grabbed the following image from the
             <a href="https://www.gravatar.com" target="_blank">
               gravatar
-            </a>{" "}
+            </a>
             image associated with your registered e-mail address.
           </p>
           <p>Is it okay to use this photo?</p>
