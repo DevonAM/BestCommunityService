@@ -1,6 +1,6 @@
 import React from "react";
 import SideBar from "./SideBar";
-import Modal from "./Modal";
+import Modal from "./ModalComponent";
 
 class ManageServicesPage extends React.Component {
   constructor() {
